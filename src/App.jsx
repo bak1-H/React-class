@@ -1,8 +1,16 @@
 
 import './App.css'
 import Personajes from './components/personajes';
+import PokemonSearch from './pages/pokebuscar';
 
-function App() {
+const App = () => {
+
+  return (
+      <div classname ="App">
+        <PokemonSearch/>
+      </div>
+  )
+
 
 const pokemonList = [
   {

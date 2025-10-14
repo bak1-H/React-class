@@ -1,0 +1,42 @@
+/* src/temp/navbar.css */
+
+/* Estilo para la barra de navegación */
+.navbar {
+  background-color: #333; /* Fondo oscuro */
+  padding: 10px 0; /* Espaciado alrededor de la barra */
+  width: 100%;
+  position: fixed; /* Fija la navbar en la parte superior */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+/* Estilos para la lista de navegación */
+.navList {
+  list-style: none; /* Elimina los puntos de la lista */
+  display: flex; /* Los elementos se alinean horizontalmente */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Alinea verticalmente */
+  margin: 0; /* Elimina los márgenes */
+  padding: 0; /* Elimina los padding */
+}
+
+/* Estilo de cada item de la lista */
+.navItem {
+  margin: 0 20px; /* Espaciado entre los enlaces */
+}
+
+/* Estilos de los enlaces */
+.link {
+  color: white; /* Texto blanco */
+  text-decoration: none; /* Elimina el subrayado por defecto */
+  font-size: 18px; /* Tamaño de fuente */
+  padding: 10px 20px; /* Espaciado alrededor del texto */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+/* Efecto cuando el usuario pasa el mouse sobre los enlaces */
+.link:hover {
+  background-color: #555; /* Fondo gris claro en hover */
+}

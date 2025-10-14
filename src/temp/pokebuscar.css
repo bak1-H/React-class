@@ -1,0 +1,43 @@
+/* src/App.css o src/components/PokemonSearch.css */
+.pokebuscar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Toma toda la altura de la ventana */
+  text-align: center;
+  margin: 0;
+}
+
+.pokebuscar input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.pokebuscar button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pokebuscar button:hover {
+  background-color: #45a049;
+}
+
+.pokebuscar img {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.pokebuscar h1, .pokebuscar h2 {
+  margin-bottom: 20px;
+}
