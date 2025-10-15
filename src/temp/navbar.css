@@ -2,7 +2,7 @@
 
 /* Estilo para la barra de navegación */
 .navbar {
-  background-color: #333; /* Fondo oscuro */
+  background-color: #221e1e; /* Fondo oscuro */
   padding: 10px 0; /* Espaciado alrededor de la barra */
   width: 100%;
   position: fixed; /* Fija la navbar en la parte superior */
@@ -38,5 +38,5 @@
 
 /* Efecto cuando el usuario pasa el mouse sobre los enlaces */
 .link:hover {
-  background-color: #555; /* Fondo gris claro en hover */
+  background-color: #ffffff; /* Fondo gris claro en hover */
 }

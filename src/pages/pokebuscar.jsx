@@ -31,7 +31,7 @@ const PokemonSearch = () => {
   };
 
   return (
-    <div classname ="pokebuscar " >
+    <div className ="pokebuscar " >
       <h1>Buscar Pokémon</h1>
       <input
         type="text"

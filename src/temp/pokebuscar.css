@@ -1,12 +1,14 @@
-/* src/App.css o src/components/PokemonSearch.css */
+
 .pokebuscar {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Toma toda la altura de la ventana */
+  height: 100vh;
+  width: 100vw;
   text-align: center;
   margin: 0;
+  background: #000000; /* para que veas bien el área */
 }
 
 .pokebuscar input {
